@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .NounOne,
+  .Verb,
+  .Adjective,
+  .NounTwo,
+  .NounThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .NounOne button,
+  .Verb button,
+  .Adjective button,
+  .NounTwo button,
+  .NounThree button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+    font-size: 20px;
+  }
+  
+  .NounOne p,
+  .Verb p,
+  .Adjective p,
+  .NounTwo p,
+  .NounThree p {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .story {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .story h2 {
+    margin-bottom: 5px;
+  }
+  
+  .story p {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
